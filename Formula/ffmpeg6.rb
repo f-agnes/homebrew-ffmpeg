@@ -1,4 +1,4 @@
-class Ffmpeg < Formula
+class Ffmpeg6 < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://ffmpeg.org/"
   license "GPL-2.0-or-later"
