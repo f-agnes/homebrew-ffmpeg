@@ -6,9 +6,9 @@ class Ffmpeg < Formula
   head "https://github.com/FFmpeg/FFmpeg.git", branch: "master"
 
   stable do
-    url "https://ffmpeg.org/releases/ffmpeg-7.1.1.tar.xz"
-    version "7.1.1-with-options" # to distinguish from homebrew-core's ffmpeg
-    sha256 "733984395e0dbbe5c046abda2dc49a5544e7e0e1e2366bba849222ae9e3a03b1"
+    url "https://ffmpeg.org/releases/ffmpeg-6.1.2.tar.xz"
+    version "6.1.2-with-options" # to distinguish from homebrew-core's ffmpeg
+    sha256 "3b624649725ecdc565c903ca6643d41f33bd49239922e45c9b1442c63dca4e38"
 
     # Backport support for recent svt-av1 (3.0.0)
     patch do
