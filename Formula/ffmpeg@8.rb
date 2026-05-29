@@ -83,6 +83,11 @@ class FfmpegAT8 < Formula
       --enable-libvpx
       --enable-libx265
       --enable-openssl
+      --enable-libdav1d 
+      --enable-libfreetype 
+      --enable-libfontconfig 
+      --enable-libharfbuzz 
+      --enable-libxml2
     ]
 
     # Needs corefoundation, coremedia, corevideo
