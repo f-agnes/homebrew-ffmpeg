@@ -15,15 +15,6 @@ class FfmpegAT8 < Formula
     regex(/href=.*?ffmpeg[._-]v?(\d+(?:\.\d+)+)\.t/i)
   end
 
-  bottle do
-    sha256 arm64_tahoe:   "d05cc234b10c73b7110258d44522152596e45d2c596f834d7628e9567e72b38f"
-    sha256 arm64_sequoia: "e20fcc85982e1ec4dfa073795e605a54b78804109730e64db596947346e46f22"
-    sha256 arm64_sonoma:  "e5606c884236ca8c1a942faaa7e62955a60e85de07df23d4f2c698061a67c9b4"
-    sha256 sonoma:        "878964f8311386f07a719e10fb77533bd0e9cb6d816ca76c283f9a5c1b5b705f"
-    sha256 arm64_linux:   "f5a701c93d3cb1c8c7f7d0f28c4aa44252604214b01b44654d74ae44c6baf0bd"
-    sha256 x86_64_linux:  "7db34826b4b98eb9f3bb1f5e758ee953f6ab36dc4bb97922fb3d1673b7af7bfc"
-  end
-
   depends_on "pkgconf" => :build
 
   # Only add dependencies required for dependents in homebrew-core
