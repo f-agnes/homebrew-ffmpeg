@@ -6,7 +6,7 @@ class FfmpegAT8 < Formula
   # None of these parts are used by default, you have to explicitly pass `--enable-gpl`
   # to configure to activate them. In this case, FFmpeg's license changes to GPL v2+.
   license "GPL-2.0-or-later"
-  revision 5
+  revision 6
   compatibility_version 1
   head "https://github.com/FFmpeg/FFmpeg.git", branch: "master"
 
@@ -32,6 +32,9 @@ class FfmpegAT8 < Formula
   depends_on "svt-av1"
   depends_on "x264"
   depends_on "x265"
+  depends_on "fontconfig"
+  depends_on "freetype"
+  depends_on "harfbuzz"
 
   uses_from_macos "bzip2"
   uses_from_macos "libxml2"
@@ -41,9 +44,6 @@ class FfmpegAT8 < Formula
     depends_on "libxcb"
     depends_on "xz"
     depends_on "zlib-ng-compat"
-    depends_on "fontconfig"
-    depends_on "freetype"
-    depends_on "harfbuzz"
   end
 
   on_intel do
