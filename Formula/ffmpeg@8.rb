@@ -1,4 +1,4 @@
-class Ffmpeg < Formula
+class FfmpegAT8 < Formula
   desc "Play, record, convert, and stream select audio and video codecs"
   homepage "https://ffmpeg.org/"
   url "https://ffmpeg.org/releases/ffmpeg-8.0.1.tar.xz"
